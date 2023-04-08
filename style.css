@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url("/Temperature-Converter-Website/img/pn.jpg");
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10% 10% 10% 10%;
+}
+
+label {
+    font-size: 30px;
+    line-height: 100px;
+}
+
+#temp {
+    width: 300px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#temp_diff {
+    width: 170px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 1.5%;
+    margin: 2px 2px;
+    font-size: 16px;
+    font-weight: bolder;
+   
+}
+
+#submit {
+    width: 170px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(111, 213, 161);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+    color: rgb(11, 68, 80);
+}
